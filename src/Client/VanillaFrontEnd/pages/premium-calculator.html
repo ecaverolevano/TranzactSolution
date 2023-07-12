@@ -1,0 +1,42 @@
+<h1>Premium Calculator</h1>
+<div class="filter-container">
+  <label for="dateOfBirth">Date of Birth:</label>
+  <input type="date" id="dateOfBirth" />
+
+  <label for="state">State:</label>
+  <select id="state"></select>
+
+  <label for="plan">Plan:</label>
+  <select id="plan"></select>
+
+  <label for="age">Age:</label>
+  <input type="number" id="age" maxlength="3" disabled />
+
+  <button id="btnGetPremium" type="button">Get Premium</button>
+</div>
+
+<table id="resultTable">
+  <thead>
+    <tr>
+      <th>Carrier</th>
+      <th>Premium</th>
+      <th>Annual</th>
+      <th>Monthly</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Table rows will be dynamically added here -->
+  </tbody>
+
+
+  <div class="filter-container">
+    <label for="listPeriod">Period:</label>
+    <select id="listPeriod">
+      <option value="1" selected>Monthly</option>
+      <option value="3">Quarterly</option>
+      <option value="6">Semi-Annually</option>
+      <option value="12">Annually</option>
+    </select>
+
+  </div>
+</table>

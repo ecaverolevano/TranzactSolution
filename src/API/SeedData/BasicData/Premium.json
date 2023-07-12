@@ -1,0 +1,51 @@
+{
+  "Premium": [
+    {
+      "Id": 1,
+      "Carrier": "Qwerty",
+
+      "State": "NY",
+      "MonthOfBirth": 8,
+      "AgeRangeMin": 21,
+      "AgeRangeMax": 45,
+      "Premium": 150
+    },
+
+    {
+      "Id": 2,
+      "Carrier": "Qwerty",
+      "State": "NY",
+      "MonthOfBirth": 1,
+      "AgeRangeMin": 46,
+      "AgeRangeMax": 65,
+      "Premium": 200.5
+    },
+    {
+      "Id": 3,
+      "Carrier": "Qwerty",
+      "State": "NY",
+      "MonthOfBirth": 0,
+      "AgeRangeMin": 18,
+      "AgeRangeMax": 65,
+      "Premium": 120.99
+    },
+    {
+      "Id": 4,
+      "Carrier": "Asdf",
+      "State": "WY",
+      "MonthOfBirth": 0,
+      "AgeRangeMin": 18,
+      "AgeRangeMax": 65,
+      "Premium": 100.8
+    },
+    {
+      "Id": 5,
+      "Carrier": "Asdf",
+      "State": "*",
+      "MonthOfBirth": 0,
+      "AgeRangeMin": 18,
+      "AgeRangeMax": 65,
+      "Premium": 89.99
+    }
+  ]
+}

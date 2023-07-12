@@ -1,0 +1,22 @@
+{
+  "States": [
+    {
+      "Code": "NY",
+      "Description": "New York"
+    },
+    {
+      "Code": "AL",
+      "Description": "Alabama"
+    },
+    {
+      "Id": 3,
+      "Code": "AK",
+      "Description": "Alaska"
+    },
+    {
+      "Id": 4,
+      "Code": "WY",
+      "Description": "Wyoming"
+    }
+  ]
+}

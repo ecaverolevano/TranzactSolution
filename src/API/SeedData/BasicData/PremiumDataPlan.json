@@ -1,0 +1,46 @@
+{
+  "PremiumDataPlan": [
+    {
+      "PremiumDataId": 1,
+      "PlanId": 1,
+      "Code": "A"
+    },
+
+    {
+      "PremiumDataId": 2,
+      "PlanId": 2,
+      "Code": "B"
+    },
+    {
+      "PremiumDataId": 3,
+      "PlanId": 1,
+      "Code": "A"
+    },
+
+    {
+      "PremiumDataId": 3,
+      "PlanId": 3,
+      "Code": "C"
+    },
+
+    {
+      "PremiumDataId": 4,
+      "PlanId": 3,
+      "Code": "C"
+    },
+
+    {
+      "PremiumDataId": 5,
+      "PlanId": 1,
+      "Code": "A"
+    },
+
+    {
+      "PremiumDataId": 5,
+      "PlanId": 3,
+      "Code": "C"
+    }
+
+  ]
+
+}

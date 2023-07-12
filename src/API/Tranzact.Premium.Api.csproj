@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="SeedData\BasicData\Carriers.json" />
+    <Content Remove="SeedData\BasicData\Plans.json" />
+    <Content Remove="SeedData\BasicData\Premium.json" />
+    <Content Remove="SeedData\BasicData\PremiumDataPlan.json" />
+    <Content Remove="SeedData\BasicData\States.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="SeedData\BasicData\Carriers.json" />
+    <None Include="SeedData\BasicData\Plans.json" />
+    <None Include="SeedData\BasicData\Premium.json" />
+    <None Include="SeedData\BasicData\PremiumDataPlan.json" />
+    <None Include="SeedData\BasicData\States.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="MediatR" Version="12.0.1" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7">
+		<PrivateAssets>all</PrivateAssets>
+		<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
+	<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	<PackageReference Include="Serilog" Version="2.12.0" />
+	<PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+	<PackageReference Include="Serilog.Extensions.Logging" Version="3.1.0" />
+	<PackageReference Include="Serilog.Settings.Configuration" Version="3.4.0" />
+	<PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Tranzact.Premium.Application\Tranzact.Premium.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\Tranzact.Premium.Infrastructure\Tranzact.Premium.Infrastructure.csproj" />
+    <ProjectReference Include="..\Infrastructure\Tranzact.Premium.Persistance\Tranzact.Premium.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

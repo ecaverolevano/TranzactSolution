@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+}
+
+.filter-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+input[type="date"],
+input[type="number"],
+select {
+    padding: 5px;
+    width: 150px;
+}
